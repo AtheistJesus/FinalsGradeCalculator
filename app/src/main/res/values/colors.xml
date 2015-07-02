@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_red">#B00029</color>
+    <color name="light_orange">#EC6348</color>
+    <color name="dark_gray">#323232</color>
+    <color name="purple">#943ADE</color>
+    <color name="lavender">#624CAB</color>
+    <color name="orange">#FF3700</color>
+    <color name="black">#000000</color>
+    <color name="very_light_green">#B5FFE1</color>
+    <color name="blueish">#4E878C</color>
+    <color name="android_blue">#446DF6</color>
+    <color name="dark_purple">#392759</color>
+    <color name="maroon">#4C212A</color>
+    <color name="white_ish">#E8F0FF</color>
+    <color name="baby_blue">#A0DDFF</color>
+    <color name="light_gray">#625F63</color>
+
+</resources>
