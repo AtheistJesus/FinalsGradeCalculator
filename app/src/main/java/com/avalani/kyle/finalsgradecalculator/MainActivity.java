@@ -62,10 +62,11 @@ private static final int RESULT_SETTINGS = 1;
 
 
 
-                    //double finalcalculation = (z * y + (1 - z) * x);         //This is the old formula
-                    double finalcalculation = ((100 * gradeWanted - (100-finalWeight) * currentGrade) / finalWeight);   //This is the new formula, added at 2:30 AM, so accuracy may be a little off (It's good)
+                    double finalCalculation = ((100 * gradeWanted - (100-finalWeight) * currentGrade) / finalWeight);   //This is the new formula, added at 2:30 AM, so accuracy may be a little off (It's good)
+                    finalCalculation = (double)Math.round(finalCalculation *100) / 100;
+                    //This is for rounding to two decimal places.
 
-                    String neededPercent = Double.toString(finalcalculation);
+                    String neededPercent = Double.toString(finalCalculation);
 
                     TextView textView1 = (TextView) findViewById(R.id.calculatedgrade);
                     textView1.setText("You need to get at least " + neededPercent + "% on your final. Good luck!");
