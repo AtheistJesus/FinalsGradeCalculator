@@ -60,10 +60,9 @@ private static final int RESULT_SETTINGS = 1;
                     double finalWeight = Double.valueOf(editText3.getText().toString());
 
 
-
-
-                    //double finalcalculation = (z * y + (1 - z) * x);         //This is the old formula
                     double finalcalculation = ((100 * gradeWanted - (100-finalWeight) * currentGrade) / finalWeight);   //This is the new formula, added at 2:30 AM, so accuracy may be a little off (It's good)
+                    finalcalculation = (double)Math.round(finalcalculation *100) / 100;
+                    //This is for rounding to two decimal places.
 
                     String neededPercent = Double.toString(finalcalculation);
 
