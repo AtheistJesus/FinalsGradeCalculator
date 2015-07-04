@@ -15,16 +15,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends WelcomeSreen {
 
-private static final int RESULT_SETTINGS = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //testing creating a new branch for experimenting with adding a classes page where you can save calculated percentages.
 
         ImageButton submitbutton = (ImageButton) findViewById(R.id.submitbutton);
         submitbutton.setOnClickListener(new View.OnClickListener() {

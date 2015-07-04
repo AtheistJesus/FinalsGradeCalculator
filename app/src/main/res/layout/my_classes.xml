@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class 1"
+        android:id="@+id/ClassOne"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Grade Temp"
+        android:id="@+id/ClassOneGrade"
+        android:layout_marginEnd="56dp"
+        android:layout_above="@+id/ClassTwo"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class 2"
+        android:id="@+id/ClassTwo"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/ClassOne"
+        android:layout_alignStart="@+id/ClassOne" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Grade Temp"
+        android:id="@+id/ClassTwoGrade"
+        android:layout_above="@+id/ClassThree"
+        android:layout_alignStart="@+id/ClassOneGrade" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class 3"
+        android:id="@+id/ClassThree"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/ClassTwo"
+        android:layout_alignStart="@+id/ClassTwo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Grade Temp"
+        android:id="@+id/ClassThreeGrade"
+        android:layout_alignBottom="@+id/ClassThree"
+        android:layout_alignStart="@+id/ClassTwoGrade" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class 4"
+        android:id="@+id/ClassFour"
+        android:layout_below="@+id/ClassThree"
+        android:layout_alignStart="@+id/ClassThree"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Grade Temp"
+        android:id="@+id/ClassFourGrade"
+        android:layout_alignBottom="@+id/ClassFour"
+        android:layout_alignStart="@+id/ClassThreeGrade" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class 5"
+        android:id="@+id/ClassFive"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/ClassFour"
+        android:layout_alignStart="@+id/ClassFour" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Grade Temp"
+        android:id="@+id/ClassFiveGrade"
+        android:layout_alignBottom="@+id/ClassFive"
+        android:layout_alignEnd="@+id/ClassFourGrade" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Class 6"
+        android:id="@+id/ClassSix"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/ClassFive"
+        android:layout_alignStart="@+id/ClassFive" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Grade Temp"
+        android:id="@+id/ClassSixGrade"
+        android:layout_alignBottom="@+id/ClassSix"
+        android:layout_alignStart="@+id/ClassFiveGrade" />
+
+</RelativeLayout>
