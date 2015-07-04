@@ -24,7 +24,7 @@ private static final int RESULT_SETTINGS = 1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //testing2
+        //testing3
 
         ImageButton submitbutton = (ImageButton) findViewById(R.id.submitbutton);
         submitbutton.setOnClickListener(new View.OnClickListener() {
