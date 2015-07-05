@@ -14,23 +14,49 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculate"
-        android:id="@+id/CalculateWelcomeButton"
+        android:id="@+id/WelcomeCalculateButton"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="109dp"
+        android:src="@drawable/welcome_calculate_button"
+        android:contentDescription="1"
+        android:background="@android:color/transparent"
         android:onClick="launchCalculate"/>
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Classes"
-        android:id="@+id/MyClassesWelcomeButton"
-        android:layout_below="@+id/CalculateWelcomeButton"
+        android:id="@+id/WelcomeMyClassesButton"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/welcome_classes_button"
+        android:contentDescription="1"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/WelcomeCalculateButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="104dp"
         android:onClick="launchMyClasses"/>
+    <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:id="@+id/CalculateWelcomeButton"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88dp"
+            android:onClick="launchCalculate"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Classes"
+            android:id="@+id/MyClassesWelcomeButton"
+            android:layout_below="@+id/CalculateWelcomeButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="104dp"
+            android:onClick="launchMyClasses"/>
+    -->
+
 </RelativeLayout>
