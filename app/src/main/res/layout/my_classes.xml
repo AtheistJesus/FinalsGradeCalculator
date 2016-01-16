@@ -8,9 +8,10 @@
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="50dp"
+        android:paddingTop="20dp"
         android:paddingBottom="25dp"
-        android:paddingLeft="60dp">
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
 
         <EditText
             android:layout_width="wrap_content"
@@ -19,23 +20,27 @@
             android:text="Class 1"
             android:id="@+id/ClassOne"
             android:layout_weight="1"
-            android:layout_column="7" />
+            android:layout_column="7"
+            android:gravity="center_horizontal"/>
 
-        <TextView
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Grade Temp"
+            android:text="% Wanted"
             android:id="@+id/ClassOneGrade"
             android:layout_weight="1"
-            android:layout_column="9" />
+            android:layout_column="9"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
     </TableRow>
 
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="25dp"
-        android:paddingLeft="60dp">
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
 
         <EditText
             android:layout_width="wrap_content"
@@ -44,23 +49,27 @@
             android:text="Class 2"
             android:id="@+id/ClassTwo"
             android:layout_weight="1"
-            android:layout_column="7"/>
+            android:layout_column="7"
+            android:gravity="center_horizontal"/>
 
-        <TextView
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Grade Temp"
+            android:text="% Wanted"
             android:id="@+id/ClassTwoGrade"
             android:layout_weight="1"
-            android:layout_column="9"/>
+            android:layout_column="9"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
     </TableRow>
 
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="25dp"
-        android:paddingLeft="60dp">
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
 
         <EditText
             android:layout_width="wrap_content"
@@ -69,16 +78,19 @@
             android:text="Class 3"
             android:id="@+id/ClassThree"
             android:layout_weight="1"
-            android:layout_column="7" />
+            android:layout_column="7"
+            android:gravity="center_horizontal"/>
 
-        <TextView
+        <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Grade Temp"
+        android:text="% Wanted"
         android:id="@+id/ClassThreeGrade"
         android:layout_weight="1"
-        android:layout_column="9" />
+        android:layout_column="9"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
 
     </TableRow>
 
@@ -86,7 +98,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="25dp"
-        android:paddingLeft="60dp">
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
 
 
         <EditText
@@ -96,16 +109,19 @@
             android:text="Class 4"
             android:id="@+id/ClassFour"
             android:layout_weight="1"
-            android:layout_column="7" />
+            android:layout_column="7"
+            android:gravity="center_horizontal"/>
 
-        <TextView
+        <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Grade Temp"
+        android:text="% Wanted"
         android:id="@+id/ClassFourGrade"
         android:layout_weight="1"
-        android:layout_column="9" />
+        android:layout_column="9"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
 
     </TableRow>
 
@@ -113,7 +129,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingBottom="25dp"
-        android:paddingLeft="60dp">
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
 
         <EditText
             android:layout_width="wrap_content"
@@ -122,16 +139,19 @@
             android:text="Class 5"
             android:id="@+id/ClassFive"
             android:layout_weight="1"
-            android:layout_column="7" />
+            android:layout_column="7"
+            android:gravity="center_horizontal"/>
 
-        <TextView
+        <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Grade Temp"
+        android:text="% Wanted"
         android:id="@+id/ClassFiveGrade"
         android:layout_weight="1"
-        android:layout_column="9" />
+        android:layout_column="9"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
     </TableRow>
 
 
@@ -139,7 +159,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingBottom="25dp"
-        android:paddingLeft="60dp">
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
 
         <EditText
             android:layout_width="wrap_content"
@@ -148,16 +169,35 @@
             android:text="Class 6"
             android:id="@+id/ClassSix"
             android:layout_weight="1"
-            android:layout_column="7" />
+            android:layout_column="7"
+            android:gravity="center_horizontal"/>
 
-        <TextView
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Grade Temp"
+            android:text="% Wanted"
             android:id="@+id/ClassSixGrade"
             android:layout_weight="1"
-            android:layout_column="9" />
+            android:layout_column="9"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="75dp"
+        android:paddingRight="60dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveButton"
+            android:layout_column="9"
+            android:src="@drawable/save_button"
+            android:contentDescription="1"
+            android:background="@android:color/transparent"/>
     </TableRow>
 
 </TableLayout>
