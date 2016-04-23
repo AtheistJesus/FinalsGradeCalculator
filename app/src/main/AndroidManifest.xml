@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.avalani.kyle.finalsgradecalculator"
     android:versionName="Finals Grade Calculator"
-    android:versionCode="2">
+    android:versionCode="3">
     <application
         android:allowBackup="true"
         android:icon="@drawable/new_calculator"

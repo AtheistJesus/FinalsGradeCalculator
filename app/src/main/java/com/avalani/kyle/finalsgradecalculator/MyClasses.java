@@ -43,28 +43,28 @@ public class MyClasses extends MainActivity {
 
 
 
-        String savedClassOneName = preferences.getString("ClassOneName","cat");
-        String savedClassOneGrade = preferences.getString("ClassOneGrade", "cat");
+        String savedClassOneName = preferences.getString("ClassOneName","Class 1");
+        String savedClassOneGrade = preferences.getString("ClassOneGrade", "Percent Wanted");
 
 
-        String savedClassTwoName = preferences.getString("ClassTwoName", "cat");
-        String savedClassTwoGrade = preferences.getString("ClassTwoGrade", "cat");
+        String savedClassTwoName = preferences.getString("ClassTwoName", "Class 2");
+        String savedClassTwoGrade = preferences.getString("ClassTwoGrade", "Percent Wanted");
 
 
-        String savedClassThreeName = preferences.getString("ClassThreeName", "cat");
-        String savedClassThreeGrade = preferences.getString("ClassThreeGrade", "cat");
+        String savedClassThreeName = preferences.getString("ClassThreeName", "Class 3");
+        String savedClassThreeGrade = preferences.getString("ClassThreeGrade", "Percent Wanted");
 
 
-        String savedClassFourName = preferences.getString("ClassFourName", "cat");
-        String savedClassFourGrade = preferences.getString("ClassFourGrade", "cat");
+        String savedClassFourName = preferences.getString("ClassFourName", "Class 4");
+        String savedClassFourGrade = preferences.getString("ClassFourGrade", "Percent Wanted");
 
 
-        String savedClassFiveName = preferences.getString("ClassFiveName", "cat");
-        String savedClassFiveGrade = preferences.getString("ClassFiveGrade", "cat");
+        String savedClassFiveName = preferences.getString("ClassFiveName", "Class 5");
+        String savedClassFiveGrade = preferences.getString("ClassFiveGrade", "Percent Wanted");
 
 
-        String savedClassSixName = preferences.getString("ClassSixName", "cat");
-        String savedClassSixGrade = preferences.getString("ClassSixGrade","cat");
+        String savedClassSixName = preferences.getString("ClassSixName", "Class 6");
+        String savedClassSixGrade = preferences.getString("ClassSixGrade","Percent Wanted");
 
 
         classOneName.setText(savedClassOneName);
